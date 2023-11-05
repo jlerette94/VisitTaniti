@@ -99,6 +99,7 @@ footer{
 div.main_logo{
 	grid-area:logo;
 	background-color:var(--pClr3);
+	height:150%;
 }
 
 div.main{
