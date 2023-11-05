@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Visit Taniti</title>
+		<link rel="stylesheet"  href="Style_Reservation.css">
+<!--		<link rel="stylesheet" media="screen and (min-width: 700px)" href="Style_L.css">
+		<link rel="stylesheet" media="screen and (max-width: 700px)" href="Style_P.css">	-->
+	</head>
+<div class="layout">
+	
+<header>
+	<a href="Home.html">
+	<div class="main_logo">
+		<img src="Pictures/Main_Logo_3.png" alt="Logo" height="100%" width="100%">
+	</div>
+	</a>
+	<div class="main">
+		<div>Welcome to Taniti</div>	
+	</div>
+	<div class="sec">
+		<div>Discover your new vaction</div>		
+	</div>
+	<div class="bcrub">
+		<div>
+			<a href="Home.html" id="bcrub_link">VisitTaniti/Home</a>
+			<a href="Dining.html" id="bcrub_link">/Dining</a>
+			<a href="Dining_Reseravtions.html" id="bcrub_link">/Reservations/Taniti_BBQ</a>
+		</div>
+	</div>
+	<div class="nbar">
+		<a href="Home.html" class="nbar_link">Home</a>
+		<a href="About.html" class="nbar_link">About</a>
+		<a href="Dining.html" class="nbar_link" id="current_pg">Dining</a>
+		<a href="Lodging.html" class="nbar_link">Lodging</a>
+		<a href="Transportation.html" class="nbar_link">Transportation</a>
+		<a href="Entertainment.html" class="nbar_link">Entertainment/Attractions</a>
+		<a href="FAQs.html" class="nbar_link">FAQ's</a>	
+	</div>
+</header>
+
+<body>
+
+<div class="flexsite">
+
+<nav>
+	<div class="snbar">
+		<a href="Dining.html" class="snbar_link">Return</a>
+	</div>
+</nav>
+<article>
+	<div class="main_article">
+		<div class="heading">
+			Taniti BBQ
+		</div>
+		<div class="externalsite">
+			<a href="https://www.gordonramsayrestaurants.com/en/us/fish-and-chips/menus/fish-chips-nyc" target="_blank">
+				Visit Resturants website
+			</a>
+		</div>
+		<div class="reservation">
+			<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
+				<div class="formdisplay">
+					<label for="name">Name</label>
+				</div>
+				<div class="formdisplay">
+					<input type="text" id="name" name="name" placeholder="Full name.." required>
+				</div>
+				<div class="formdisplay">
+					<label for="tel">Phone Number</label>
+				</div>
+				<div class="formdisplay">
+					<input type="tel" placeholder="(###) ###-####" required>
+				</div>
+				<div class="formdisplay">
+					<label for="party">Number of guest in party</label>
+				</div>
+				<div class="formdisplay">
+					<input type="number" id="party" name="party" placeholder="" min="1" required>
+				</div>
+				<div class="formdisplay">
+					<label for="date">Select Date</label>
+				</div>
+				<div class="formdisplay">
+					<input type="date" id="date" required>
+				</div>
+				<div class="formdisplay">
+					<label for="time">Select Time</label>
+				</div>
+				<div class="formdisplay">
+					<select name="time" required>
+						<option value="none" selected disabled hidden>Select an Option</option>
+						<option value="1200">12:00</option>
+						<option value="1230">12:30</option>
+						<option value="0100">1:00</option>
+						<option value="0130">1:30</option>
+						<option value="0200">2:00</option>
+						<option value="0230">2:30</option>
+						<option value="0300">3:00</option>
+						<option value="0330">3:30</option>
+						<option value="0400">4:00</option>
+						<option value="0430">4:30</option>
+						<option value="0500">5:00</option>
+						<option value="0530">5:30</option>
+						<option value="0600">6:00</option>
+						<option value="0630">6:30</option>
+						<option value="0700">7:00</option>
+						<option value="0730">7:30</option>
+						<option value="0800">8:00</option>
+						<option value="0830">8:30</option>
+						<option value="0900">9:00</option>
+						<option value="0930">9:30</option>
+						<option value="1000">10:00</option>
+					</select>
+				</div>
+				<div class="formdisplay"></div>
+				<div class="formdisplay"></div>
+				<div class="formdisplay">
+					<input type="submit" value="Place Reservation!" id="sub_btn">
+				</div>
+			</form>
+		</div>
+	</div>
+</article>
+
+<aside>
+	<div class="side">
+		<img src="Pictures/Hotel.png" alt="" width="90vw" height="80vh">
+		<div class="xsmall">
+			https://www.istockphoto.com/
+		</div>
+		<a href="Lodging.html" class="rsnav_link">Hotels</a>
+		<img src="Pictures/Cars.png" alt="" width="90vw" height="80vh">
+		<div class="xsmall">
+			https://www.istockphoto.com/
+		</div>
+		<a href="Transportation.html" class="rsnav_link">Rental's</a>
+		<img src="Pictures/Side_1.png" alt="" width="90vw" height="80vh">
+		<div class="xsmall">
+			https://www.istockphoto.com/
+		</div>
+		<a href="Entertainment.html#volcano" class="rsnav_link">Volcano Tours</a>
+		<img src="Pictures/Questions.png" alt="" width="90vw" height="80vh">
+		<div class="xsmall">
+			https://www.istockphoto.com/
+		</div>
+		<a href="FAQs.html" class="rsnav_link">FAQ's</a>
+	</div>
+</aside>
+
+</div>
+
+</body>
+
+<footer>
+	<div class="footer">
+		<div class="top_foot_l">
+			<a href="https://www.Instagram.com/VisitTaniti/" target="_blank" class="insta"><!--<img src="Pictures/Instagram.png" height="40%" id="insta">--> Follow us on Instagram!</a>
+		</div>
+		<div class="btm_foot_1">
+			<a href="https://www.facebook.com/VisitTaniti/" target="_blank"><!--<img src="Pictures/fbook.png" width="20vw" height="20vh" id="fbook">--> Like us on Facebook!</a>
+		</div>
+		<div class="top_foot_2">
+			<a href="mailto:Support@VisitTaniti.com">Email us: Support@VisitTaniti.com</a>
+		</div>
+		<div class="btm_foot_2">
+			 <span>Call us: +1(555)-555-5555</span>
+		</div>
+	</div>
+	
+</footer>
+
+</div>
+
+</html>
